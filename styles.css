@@ -335,6 +335,16 @@ text-align: center;
 }
 /* Pricing styles Ends here  */
 
+
+
+
+
+
+
+
+
+/* stats section starts here */
+
 .stats-section{
     display: flex;
     padding: 96px 0px;
@@ -440,6 +450,22 @@ text-align: center;
     gap: 32px;
     align-self: stretch;
 }
+/* stats section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -712,6 +738,129 @@ text-align: center;
 }
 
 
+
+
+
+
+
+
+
+/* stats section starts here */
+
+.stats-section{
+    display: flex;
+    padding: 64px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    /* align-self: stretch; */
+    /* width: 300px; */
+}
+.stats-section-head{
+    display: flex;
+    padding: 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+    /* align-self: stretch; */
+}
+.stats-section-head h2{
+    color: var(--Gray-900, #101828);
+
+    /* Display sm/Semibold */
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px; /* 126.667% */
+}
+.stats-section-head p{
+    color: var(--Gray-600, #475467);
+
+    /* Text lg/Regular */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+    padding:0;
+    /* align-self: stretch; */
+}
+.stats-img{
+    display: flex;
+    justify-items: center;
+}
+.stats-img img{
+    height:  280px;
+    width:  100%;
+    object-fit: cover;
+    
+    flex: 1 0 0;
+}
+.stats-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    /* align-self: stretch; */
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* align-self: stretch; */
+}
+.stat h1{
+    color: var(--Primary-600, #444CE7);
+    text-align: center;
+
+    /* Display lg/Semibold */
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+}
+.stat h5{
+    color: var(--Gray-900, #101828);
+    text-align: center;
+    
+    /* Text lg/Semibold */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+}
+.stat p{
+    color: var(--Gray-600, #475467);
+    text-align: center;
+    
+    /* Text md/Regular */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.stat-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    
+}
+/* stats section ends here */
 
 
 }
